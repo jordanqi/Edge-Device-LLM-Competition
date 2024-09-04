@@ -18,3 +18,7 @@ use the specified `oenshot_prun_.py` script to prune a specified model using var
   ```bash
   python oenshot_prun_.py --base_model <BASE_MODEL> --ratio <RATIO> --prune_metric wanda_sp --seq_len <SEQ_LEN> --output_path <OUTPUT_PATH>
   ```
+
+**Model Configuration**
+
+For each model used in OpenCompass, the corresponding model_opencompass.py and config files are located in their respective directories
